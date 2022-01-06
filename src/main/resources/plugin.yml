@@ -1,0 +1,14 @@
+name: HideAndSeek
+version: '${project.version}'
+main: net.fnafmc.hideandseek.Main
+api-version: 1.17
+authors: [ MilesSRC ]
+description: A hide and seek plugin for FNAFMC's Holiday Event.
+website: fnafmc.net
+commands:
+  event:
+    description: Main command for HideAndSeek
+    usage: /<command> subcommand
+permissions:
+  fnafmc.events:
+    description: Gives /event admin commands
